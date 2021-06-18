@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.done{
+    opacity: 0.3;
+    text-decoration-line: line-through;
+}
+.button{
+    display: flex;
+    border: 1px ridge gray;
+    border-radius: 5px;
+    font-size: 10px;
+    justify-content: space-between;
+    padding: 4px;
+    width: 315px;
+    margin-left: 80px;
+}
+.button1{
+    display: flex;
+}
+.button1 div{
+    margin-left: 3px;
+    text-align: center;
+}
+.all{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+}
+.header-wrap{
+    display: block;
+    max-width: 400px;
+    margin: 100px auto;
+}
+.border{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+}
+ul li{
+    padding: 3px;
+    list-style-type: none;
+    width: 315px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-style: ridge;
+    display: flex;
+    justify-content: space-between;
+}
+li button{
+    color: red;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: brown;
+    opacity: 0.5;
+}
+#input{
+    padding: 3px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.form-warp{
+    padding-left: 80px;
+}
+.new{
+    color: blue;
+    padding: 3px;
+    font-size: 18px;
+}
+.delete{
+    display: none;
+}
+.complete{
+    display: none;
+}
